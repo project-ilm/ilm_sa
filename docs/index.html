@@ -1,0 +1,127 @@
+<!doctype html><html lang="sa" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>संस्कृतम् · Programming in your own language · Project ILM</title><meta name="description" content="संस्कृतम्: Programming in your own language"><meta property="og:title" content="संस्कृतम् · Programming in your own language · Project ILM"><meta property="og:url" content="https://project-ilm.github.io/ilm_sa/"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><style>:root{--ink:#1d1b2e;--mut:#5e5a73;--bg:#faf8f4;--card:#fff;--line:#e6e1d6;--brand:#2d2a6e;--acc:#d9822b;--ok:#2e7d32}
+*{box-sizing:border-box}body{margin:0;font:18px/1.75 system-ui,'Noto Sans','Noto Sans Devanagari','Noto Naskh Arabic',sans-serif;background:var(--bg);color:var(--ink)}
+.bar{background:var(--brand);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.mark{width:42px;height:42px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font:700 15px/1 Georgia,serif;letter-spacing:.5px;color:#fff}
+.bar b{font:700 18px Georgia,serif}.bar span{opacity:.85;font-size:14px}.bar a{color:#fff;margin-left:auto;font-size:14px}
+main{max-width:940px;margin:0 auto;padding:10px 16px 50px}.hero{padding:26px 0 10px}.hero h1{font:700 clamp(38px,8vw,64px)/1.1 Georgia,'Noto Serif',serif;margin:0}
+.hero p{font-size:21px;color:var(--mut);margin:6px 0 10px}.doi{font-size:15px}.doi a{color:var(--brand)}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin:18px 0}
+h2{font:700 26px/1.3 Georgia,'Noto Serif',serif;margin:0 0 8px;color:var(--brand)}h3{margin:16px 0 6px}
+textarea{width:100%;height:150px;font:18px ui-monospace,monospace;border:1px solid #ccc;border-radius:10px;padding:8px}
+canvas{width:100%;max-width:520px;aspect-ratio:1;background:#fff;border:1px solid #ccc;border-radius:10px;display:block;margin-top:8px}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}button,select{font:inherit;padding:6px 12px;border-radius:10px;border:1px solid #c9c3b6;background:#fff;cursor:pointer}
+button.go{background:var(--ok);color:#fff;border-color:var(--ok)}pre{background:#fbfaf7;border:1px solid var(--line);border-radius:10px;padding:10px;overflow-x:auto;font-size:15px;line-height:1.55}
+.badge{font-size:13px;color:var(--ok);margin-inline-start:8px}img{max-width:100%;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.1)}
+a.cta{display:inline-block;background:var(--acc);color:#fff;padding:10px 18px;border-radius:10px;text-decoration:none;font-weight:700}
+.share{display:flex;flex-wrap:wrap;gap:8px}.share a,.share button{padding:6px 12px;border-radius:18px;border:1px solid var(--line);background:#fff;color:var(--ink);text-decoration:none;font-size:15px}
+footer{color:var(--mut);font-size:13px;margin-top:30px;line-height:1.6}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid var(--line);padding:5px 8px;text-align:start}</style></head><body><div class="bar"><div class="mark">ILM</div><div><b>Project ILM</b><br><span>Integrative Linguistic Multiscript · Hindawi</span></div><a href="https://github.com/project-ilm">github.com/project-ilm</a></div><main><div class="hero"><h1>संस्कृतम्</h1><p>Programming in your own language</p><p id="doi" class="doi"></p><div class="share" aria-label="share"><a href="https://wa.me/?text=%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%AE%E0%A5%8D%20%C2%B7%20Programming%20in%20your%20own%20language%20%C2%B7%20Project%20ILM%20https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">WhatsApp</a><a href="https://t.me/share/url?url=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F&text=%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%AE%E0%A5%8D%20%C2%B7%20Programming%20in%20your%20own%20language%20%C2%B7%20Project%20ILM" target="_blank" rel="noopener">Telegram</a><a href="https://twitter.com/intent/tweet?text=%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%AE%E0%A5%8D%20%C2%B7%20Programming%20in%20your%20own%20language%20%C2%B7%20Project%20ILM&url=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">Facebook</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:?subject=%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%AE%E0%A5%8D%20%C2%B7%20Programming%20in%20your%20own%20language%20%C2%B7%20Project%20ILM&body=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">Email</a><button type="button" onclick="navigator.share?navigator.share({title:document.title,url:location.href}):navigator.clipboard.writeText(location.href)">🔗 Share</button></div></div><section><h2>Shaili Robot</h2><p>Write what the robot should do, or tap the buttons. In Simple, the first letter of a word is enough.</p><div class="row"><select id="mode"><option value="simple">Simple</option><option value="logo">LOGO</option></select><label>Samples <select id="smp"></select></label><button class="go" id="run" type="button">▶ Run</button><button id="clr" type="button">✖ Clear</button></div><div class="row"><button type="button" data-w="उपरि">↑ उपरि</button><button type="button" data-w="अधः">↓ अधः</button><button type="button" data-w="वामतः">← वामतः</button><button type="button" data-w="दक्षिणतः">→ दक्षिणतः</button></div><div class="row"><button type="button" data-l="अग्रप्रसार">अग्रप्रसार</button><button type="button" data-l="पृष्ठतः">पृष्ठतः</button><button type="button" data-l="वामतः">वामतः</button><button type="button" data-l="दक्षिणतः">दक्षिणतः</button><button type="button" data-l="आवर्तय">आवर्तय</button><button type="button" data-l="लेखनीम्_उद्धर">लेखनीम्_उद्धर</button><button type="button" data-l="लेखनीम्_स्थापय">लेखनीम्_स्थापय</button></div><textarea id="code" dir="ltr" spellcheck="false"></textarea><canvas id="cv" width="520" height="520"></canvas></section><section><h2>Your language in the IDE</h2><img src="ide.svg" alt="Your language in the IDE"></section><section><h2>The notebook for this language</h2><p>A notebook is a page where you write a program and run it, one cell at a time. Colab, Google&#x27;s notebook service, runs it in your browser, even on a phone, with nothing to install: open it, press ▶ on Installation, then try the programs.</p><p><a class="cta" href="https://colab.research.google.com/github/hindawiai/hindawi2026.10/blob/main/notebooks/practice/hindawi_sanskrit.ipynb">Open the notebook</a></p></section><section><h2>Examples in every style (shaili)</h2><h3>C<span class="badge">✓ built and ran</span></h3><pre dir="ltr"><code>#अन्तर्भाव &lt;stdio.h&gt;
+/* क्रमबद्धायां सूच्यां द्विमान अन्वेषणम् */
+पूर्णाङ्क द्विमान_अन्वेषणम्(पूर्णाङ्क मानानि[], पूर्णाङ्क गणनम्, पूर्णाङ्क कुञ्चिका) {
+  पूर्णाङ्क नीचः = 0, उच्चः = गणनम् - 1;
+  यावत् (नीचः &lt;= उच्चः) {
+    पूर्णाङ्क मध्यः = नीचः + (उच्चः - नीचः) / 2;
+    यदि (मानानि[मध्यः] == कुञ्चिका) प्रत्यागम मध्यः;
+    यदि (मानानि[मध्यः] &lt; कुञ्चिका) नीचः = मध्यः + 1; अन्यथा उच्चः = मध्यः - 1;
+  }
+  प्रत्यागम -1;
+}
+पूर्णाङ्क मुख्यम्(शून्य) {
+  पूर्णाङ्क मानानि[] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+  प्रारूप_लिख(&quot;%d %d\n&quot;, द्विमान_अन्वेषणम्(मानानि, 10, 23), द्विमान_अन्वेषणम्(मानानि, 10, 7));
+  प्रत्यागम 0;
+}
+</code></pre><h3>C++<span class="badge">✓ built and ran</span></h3><pre dir="ltr"><code>#अन्तर्भाव &lt;cstddef&gt;
+// द्विमान अन्वेषण वृक्षस्य वर्गः, सी++ भाषायाम् 
+#अन्तर्भाव &lt;iostream&gt;
+वर्ग अन्वेषण_वृक्षः {
+  संरचना वृक्ष_ग्रन्थिः { पूर्णाङ्क कुञ्चिका; वृक्ष_ग्रन्थिः *वामतः = रिक्त, *दक्षिणतः = रिक्त; };
+  वृक्ष_ग्रन्थिः *मूलम् = रिक्त;
+  वृक्ष_ग्रन्थिः *निवेशय(वृक्ष_ग्रन्थिः *ग्रन्थिः, पूर्णाङ्क कुञ्चिका) { यदि (!ग्रन्थिः) { ग्रन्थिः = नूतन वृक्ष_ग्रन्थिः; ग्रन्थिः-&gt;कुञ्चिका = कुञ्चिका; प्रत्यागम ग्रन्थिः; } यदि (कुञ्चिका &lt; ग्रन्थिः-&gt;कुञ्चिका) ग्रन्थिः-&gt;वामतः = निवेशय(ग्रन्थिः-&gt;वामतः, कुञ्चिका); अन्यथा ग्रन्थिः-&gt;दक्षिणतः = निवेशय(ग्रन्थिः-&gt;दक्षिणतः, कुञ्चिका); प्रत्यागम ग्रन्थिः; }
+  शून्य मध्यक्रमः(वृक्ष_ग्रन्थिः *ग्रन्थिः) { यदि (!ग्रन्थिः) प्रत्यागम; मध्यक्रमः(ग्रन्थिः-&gt;वामतः); std::निर्गमः &lt;&lt; ग्रन्थिः-&gt;कुञ्चिका &lt;&lt; &quot; &quot;; मध्यक्रमः(ग्रन्थिः-&gt;दक्षिणतः); }
+सार्वजनिक:
+  शून्य निवेशय(पूर्णाङ्क कुञ्चिका) { मूलम् = निवेशय(मूलम्, कुञ्चिका); }
+  शून्य print() { मध्यक्रमः(मूलम्); std::निर्गमः &lt;&lt; std::पङ्क्त्यन्तः; }
+};
+पूर्णाङ्क मुख्यम्() { अन्वेषण_वृक्षः वृक्षः; पूर्णाङ्क कुञ्चिकाः[] = {5, 3, 8, 1, 4}; प्रति (पूर्णाङ्क कुञ्चिका : कुञ्चिकाः) वृक्षः.निवेशय(कुञ्चिका); वृक्षः.print(); प्रत्यागम 0; }
+</code></pre><h3>Python<span class="badge">✓ built and ran</span></h3><pre dir="ltr"><code># द्विमान अन्वेषणम्, पाइथन भाषायाम् 
+परिभाषा द्विमान_अन्वेषणम्(मानानि, कुञ्चिका):
+    नीचः, उच्चः = 0, दीर्घता(मानानि) - 1
+    यावत् नीचः &lt;= उच्चः:
+        मध्यः = (नीचः + उच्चः) // 2
+        यदि मानानि[मध्यः] == कुञ्चिका:
+            प्रत्यागम मध्यः
+        यदि मानानि[मध्यः] &lt; कुञ्चिका:
+            नीचः = मध्यः + 1
+        अन्यथा:
+            उच्चः = मध्यः - 1
+    प्रत्यागम -1
+
+मुद्रय(द्विमान_अन्वेषणम्([2, 5, 8, 12, 16, 23, 38], 23), द्विमान_अन्वेषणम्([2, 5, 8], 7))
+</code></pre><h3>Java<span class="badge">✓ lowered to its host language</span></h3><pre dir="ltr"><code>// राशेः वर्गः, जावा भाषायाम् 
+सार्वजनिक वर्ग राशिः {
+  गुप्त पूर्णाङ्क[] वस्तूनि = नूतन पूर्णाङ्क[16];
+  गुप्त पूर्णाङ्क शिखरम् = 0;
+  सार्वजनिक शून्य प्रक्षिप(पूर्णाङ्क मानम्) { वस्तूनि[शिखरम्++] = मानम्; }
+  सार्वजनिक पूर्णाङ्क निष्कासय() { प्रत्यागम वस्तूनि[--शिखरम्]; }
+  सार्वजनिक स्थिर शून्य मुख्यम्(पदावली[] तर्काः) {
+    राशिः वस्तूनि = नूतन राशिः();
+    प्रति (पूर्णाङ्क मानम् = 1; मानम् &lt;= 3; मानम्++) वस्तूनि.प्रक्षिप(मानम् * 10);
+    प्रणाली.बहिः.पङ्क्तिं_मुद्रय(वस्तूनि.निष्कासय() + &quot; &quot; + वस्तूनि.निष्कासय());
+  }
+}
+</code></pre><h3>BASIC<span class="badge">✓ lowered to its host language</span></h3><pre dir="ltr"><code>20 प्रति सङ्ख्या = 2 पर्यन्तम् 29
+30 अस्तु अविभाज्यः = 1
+40 प्रति भाजकः = 2 पर्यन्तम् सङ्ख्या - 1
+50 यदि सङ्ख्या शेषः भाजकः = 0 तर्हि अस्तु अविभाज्यः = 0
+60 अग्रिम भाजकः
+70 यदि अविभाज्यः = 1 तर्हि मुद्रय सङ्ख्या
+80 अग्रिम सङ्ख्या
+90 अन्त
+</code></pre><h3>Lex<span class="badge">✓ built and ran</span></h3><pre dir="ltr"><code>%{
+#अन्तर्भाव &lt;stdio.h&gt;
+पूर्णाङ्क शब्दाः = 0, पङ्क्तयः = 0;
+%}
+%%
+[a-zA-Z]+   { शब्दाः++; }
+\n          { पङ्क्तयः++; }
+.           { }
+%%
+पूर्णाङ्क yywrap(शून्य) { प्रत्यागम 1; }
+पूर्णाङ्क मुख्यम्(शून्य) { yylex(); प्रारूप_लिख(&quot;%d words, %d lines\n&quot;, शब्दाः, पङ्क्तयः); प्रत्यागम 0; }
+</code></pre><h3>Yacc<span class="badge">✓ built and ran</span></h3><pre dir="ltr"><code>%{
+#अन्तर्भाव &lt;stdio.h&gt;
+#अन्तर्भाव &lt;ctype.h&gt;
+पूर्णाङ्क yylex(शून्य);
+शून्य yyerror(ध्रुव वर्ण *सन्देशः) { fprintf(stderr, &quot;%s\n&quot;, सन्देशः); }
+%}
+%शब्दांशः अङ्कः
+%%
+निवेशः: | निवेशः पङ्क्तिः ;
+पङ्क्तिः: &#x27;\n&#x27; | व्यञ्जकम् &#x27;\n&#x27; { प्रारूप_लिख(&quot;%d\n&quot;, $1); } ;
+व्यञ्जकम्: मानम् | व्यञ्जकम् &#x27;+&#x27; मानम् { $$ = $1 + $3; } ;
+मानम्: अङ्कः | मानम् &#x27;*&#x27; अङ्कः { $$ = $1 * $3; } ;
+%%
+पूर्णाङ्क yylex(शून्य) {
+  पूर्णाङ्क चिह्नम् = अक्षरं_पठ();
+  यावत् (चिह्नम् == &#x27; &#x27;) चिह्नम् = अक्षरं_पठ();
+  यदि (अङ्कः_वा(चिह्नम्)) { yylval = चिह्नम् - &#x27;0&#x27;; यावत् (अङ्कः_वा(चिह्नम् = अक्षरं_पठ())) yylval = yylval * 10 + चिह्नम् - &#x27;0&#x27;; ungetc(चिह्नम्, stdin); प्रत्यागम अङ्कः; }
+  प्रत्यागम चिह्नम् == EOF ? 0 : चिह्नम्;
+}
+पूर्णाङ्क मुख्यम्(शून्य) { प्रत्यागम yyparse(); }
+</code></pre></section><p><a href="standard.html">The proposed keywords for this language</a></p><div class="share" aria-label="share"><a href="https://wa.me/?text=%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%AE%E0%A5%8D%20%C2%B7%20Programming%20in%20your%20own%20language%20%C2%B7%20Project%20ILM%20https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">WhatsApp</a><a href="https://t.me/share/url?url=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F&text=%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%AE%E0%A5%8D%20%C2%B7%20Programming%20in%20your%20own%20language%20%C2%B7%20Project%20ILM" target="_blank" rel="noopener">Telegram</a><a href="https://twitter.com/intent/tweet?text=%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%AE%E0%A5%8D%20%C2%B7%20Programming%20in%20your%20own%20language%20%C2%B7%20Project%20ILM&url=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">Facebook</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:?subject=%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%AE%E0%A5%8D%20%C2%B7%20Programming%20in%20your%20own%20language%20%C2%B7%20Project%20ILM&body=https%3A%2F%2Fproject-ilm.github.io%2Film_sa%2F" target="_blank" rel="noopener">Email</a><button type="button" onclick="navigator.share?navigator.share({title:document.title,url:location.href}):navigator.clipboard.writeText(location.href)">🔗 Share</button></div><footer>Project ILM · AyeAI. © 1993–2026 Abhishek Choudhary. All rights reserved. Hindawi™ is his trademark. Google Colab is a product of Google LLC; Jupyter is a trademark of LF Charities; Python is a trademark of the Python Software Foundation; Java is a trademark of Oracle; GitHub is a trademark of GitHub, Inc.; WhatsApp, Facebook and Telegram are trademarks of their owners; Zenodo is operated by CERN. Their mention implies no endorsement. Built from <a href="https://github.com/hindawiai/hindawi2026.10">hindawiai/hindawi2026.10</a>.</footer></main><script>const Z=[1632, 1776, 1984, 2406, 2534, 2662, 2790, 2918, 3046, 3174, 3302, 3430, 3558, 3664, 3792, 3872, 4160, 4240, 6112, 6160, 6470, 6608, 6784, 6800, 6992, 7088, 7232, 7248, 42528, 43216, 43264, 43472, 43504, 43600, 44016, 65296, 66720, 68912, 69734, 69872, 69942, 70096, 70384, 70736, 70864, 71248, 71360, 71472, 71904, 72016, 72784, 73040, 73120, 73552, 92768, 92864, 93008, 120782, 120792, 120802, 120812, 120822, 123200, 123632, 124144, 125264, 130032],W={"CLEARSCREEN": "पटलं_शोधय", "FORWARD": "अग्रप्रसार", "PENDOWN": "लेखनीम्_स्थापय", "IFELSE": "यदि_अन्यथा", "REPEAT": "आवर्तय", "PENUP": "लेखनीम्_उद्धर", "PRINT": "मुद्रय", "RIGHT": "दक्षिणतः", "BACK": "पृष्ठतः", "HOME": "गृहम्", "LEFT": "वामतः", "MAKE": "कुरु", "END": "अन्त", "IF": "यदि", "TO": "पर्यन्तम्"},S=["उपरि", "अधः", "वामतः", "दक्षिणतः"],SH=["उ", "अ", "व", "द"],SP={"simple": ["उपरि 3\nदक्षिणतः 3\nअधः 3\nवामतः 3", "उ 2\nद 4\nअ 2", "↑ 3\n→ 3\n↓ 3\n← 3"], "logo": ["आवर्तय 4 [ अग्रप्रसार 100 दक्षिणतः 90 ]", "आवर्तय 36 [ अग्रप्रसार 140 दक्षिणतः 170 ]"]};
+const c=document.getElementById('cv'),x=c.getContext('2d'),box=document.getElementById('code'),mode=document.getElementById('mode'),smp=document.getElementById('smp');
+function fill(){smp.innerHTML=SP[mode.value].map((p,i)=>'<option value="'+i+'">'+(i+1)+'</option>').join('');box.value=SP[mode.value][0];draw();}
+function draw(){const s=c.width=c.height=520;x.clearRect(0,0,s,s);let X=s/2,Y=s/2,H=-90,pen=true;x.strokeStyle='#d9822b';x.lineWidth=3;x.beginPath();x.moveTo(X,Y);
+let t=box.value.replace(/[\[\]]/g,m=>' '+m+' ').split(/\s+/).filter(Boolean),i=0;
+const num=()=>{const v=t[i++]||'1';return Number(v.replace(/\p{Nd}/gu,d=>{const cp=d.codePointAt(0);for(const z of Z)if(cp>=z&&cp<=z+9)return String(cp-z);return d;}))||1;};
+const step=(dx,dy,n)=>{for(let k=0;k<n;k++){X+=dx*20;Y+=dy*20;pen?x.lineTo(X,Y):x.moveTo(X,Y);}};
+const fwd=n=>{X+=Math.cos(H*Math.PI/180)*n;Y+=Math.sin(H*Math.PI/180)*n;pen?x.lineTo(X,Y):x.moveTo(X,Y);};
+const word=w=>{if('↑↓←→'.includes(w))return 'S'+'↑↓←→'.indexOf(w);for(let k=0;k<S.length;k++)if(S[k]===w||SH[k]===w)return 'S'+k;for(const[k,v]of Object.entries(W))if(v===w)return k;return w.toUpperCase();};
+function block(){const out=[];let dp=0;i++;while(i<t.length){if(t[i]==='[')dp++;if(t[i]===']'){if(dp===0){i++;break;}dp--;}out.push(t[i++]);}return out;}
+function run(list){const st=t,si=i;t=list;i=0;while(i<t.length)exec();t=st;i=si;}
+function exec(){const w=word(t[i++]||'');if(w[0]==='S'&&/^S\d$/.test(w)){const k=+w[1],n=num();step([0,0,-1,1][k],[-1,1,0,0][k],n);}
+else if(w==='FORWARD'||w==='FD')fwd(num());else if(w==='BACK'||w==='BK')fwd(-num());else if(w==='RIGHT'||w==='RT')H+=num();else if(w==='LEFT'||w==='LT')H-=num();
+else if(w==='PENUP'||w==='PU')pen=false;else if(w==='PENDOWN'||w==='PD')pen=true;else if(w==='REPEAT'){const n=num(),b=block();for(let r=0;r<n;r++)run(b);}}
+while(i<t.length)exec();x.stroke();x.fillStyle='#2d2a6e';x.beginPath();x.arc(X,Y,7,0,7);x.fill();}
+document.getElementById('run').onclick=draw;document.getElementById('clr').onclick=()=>{box.value='';draw();};mode.onchange=fill;smp.onchange=()=>{box.value=SP[mode.value][smp.value];draw();};
+document.querySelectorAll('[data-w],[data-l]').forEach(b=>b.onclick=()=>{box.setRangeText((box.value&&!box.value.endsWith('\n')?'\n':'')+(b.dataset.w||b.dataset.l)+' ',box.selectionStart,box.selectionEnd,'end');box.focus();});fill();</script></body></html>
